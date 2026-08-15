@@ -1,13 +1,21 @@
 {
   "version": 1,
-  "seq": 3,
+  "seq": 4,
   "command": "work_cycle",
   "args": {
-    "priorityPlatforms": ["mindrift"],
     "country": "Argentina",
-    "requireVerifiedEligibility": true,
-    "skipPlatformsWithoutArgentinaEligibility": true
+    "acceptIfNoCountryRequirement": true,
+    "rejectIfExplicitOtherCountryResidenceRequired": true,
+    "rejectIfInterviewOrCallRequired": true,
+    "rejectIfVideoOrSelfieRequired": true,
+    "rejectIfPhysicalPhotosRequired": true,
+    "rejectIfCameraOrMicrophoneParticipationRequired": true,
+    "rejectIfInPersonOrPhysicalTask": true,
+    "rejectIfHumanOpinionOrSurveyRequired": true,
+    "preferFullyDigitalDuoExecutable": true,
+    "preferredTaskTypes": ["annotation", "data-labeling", "classification", "comparison", "research", "data-entry", "document-processing", "translation", "qa", "technical-testing", "programming", "web", "digital-processing", "cataloging"],
+    "requireFullRequirementCheckBeforePrepare": true
   },
-  "createdAt": "2026-08-15T20:41:00Z",
-  "note": "Immediate verified Argentina work cycle: prioritize Mindrift Latin America projects first. Prepare the best safe opportunity; stop only for login/KYC/2FA or human-only task requirements."
+  "createdAt": "2026-08-15T20:44:30Z",
+  "note": "DUO-first work cycle. Do not reject jobs with no country requirement. Reject only explicit incompatible geography or human-only requirements. Prioritize tasks DUO can execute end-to-end on the PC/web."
 }
