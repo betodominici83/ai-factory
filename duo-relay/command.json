@@ -1,18 +1,24 @@
 {
   "version": 1,
-  "seq": 7,
+  "seq": 8,
   "command": "work_cycle",
   "args": {
+    "mode": "execute_not_just_scan",
     "lanes": {
       "pro": {
         "priorityPlatforms": ["workana", "upwork", "freelancer"],
-        "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "node", "data-extraction", "excel-automation", "csv", "document-processing", "qa", "programming"]
+        "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "node", "data-extraction", "excel-automation", "csv", "document-processing", "qa", "programming"],
+        "prepareApplications": true,
+        "doNotSpendCreditsWithoutHumanGate": true,
+        "doNotAcceptPaidContractWithoutHumanGate": true
       },
       "micro": {
         "platforms": ["clickworker", "oneforma", "crowdgen", "microworkers", "sproutgigs", "mindrift", "utest"],
         "preferredTaskTypes": ["annotation", "data-labeling", "classification", "comparison", "research", "data-entry", "document-processing", "translation", "qa", "technical-testing", "cataloging"],
-        "onlyIfAutomationAllowed": true,
-        "humanAssistIfAutomationRestricted": true
+        "executeAndSubmitAutomaticallyIfTaskRulesExplicitlyAllowAutomation": true,
+        "skipIfAutomationProhibitedOrHumanOpinionRequired": true,
+        "humanAssistIfKyc2faCaptchaOrIdentityCheck": true,
+        "continueWhileCompatibleTasksExist": true
       }
     },
     "country": "Argentina",
@@ -23,11 +29,11 @@
     "rejectIfPhysicalPhotosRequired": true,
     "rejectIfCameraOrMicrophoneParticipationRequired": true,
     "rejectIfInPersonOrPhysicalTask": true,
-    "prepareBestSafeOpportunity": true,
     "repairLocksBeforeScan": true,
     "openMarketsIfNeeded": true,
-    "rankAcrossLanesByExpectedNetValue": true
+    "rankAcrossLanesByExpectedNetValue": true,
+    "recordEvidenceAndEarnings": true
   },
-  "createdAt": "2026-08-15T22:10:00Z",
-  "note": "V20 dual-lane cycle: PRO + MICRO. Keep microjobs in radar; execute autonomously only where platform/task rules allow automation, otherwise mark human-assisted. Rank everything by expected net value."
+  "createdAt": "2026-08-15T22:46:00Z",
+  "note": "Execution-first order. MICRO: actually execute and submit compatible tasks when automation is explicitly allowed. PRO: prepare applications and deliverables, with Human Gate before spending credits or accepting a paid contract. Do not merely scan."
 }
