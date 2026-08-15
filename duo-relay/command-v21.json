@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "lanes": ["pro", "micro"],
+    "country": "Argentina",
+    "acceptIfNoCountryRequirement": true,
+    "prepareBestSafeOpportunity": true,
+    "repairLocksBeforeScan": true,
+    "openMarketsIfNeeded": true
+  },
+  "createdAt": "2026-08-15T22:20:00Z",
+  "note": "V21 first work cycle after SAME PERSONAL EDGE PROFILE activation. Open active markets, scan, rank and prepare the best safe DUO-executable opportunity."
+}
