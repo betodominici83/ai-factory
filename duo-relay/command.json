@@ -1,21 +1,14 @@
 {
   "version": 1,
-  "seq": 4,
+  "seq": 5,
   "command": "work_cycle",
   "args": {
+    "priorityPlatforms": ["workana", "upwork", "freelancer"],
     "country": "Argentina",
     "acceptIfNoCountryRequirement": true,
-    "rejectIfExplicitOtherCountryResidenceRequired": true,
-    "rejectIfInterviewOrCallRequired": true,
-    "rejectIfVideoOrSelfieRequired": true,
-    "rejectIfPhysicalPhotosRequired": true,
-    "rejectIfCameraOrMicrophoneParticipationRequired": true,
-    "rejectIfInPersonOrPhysicalTask": true,
-    "rejectIfHumanOpinionOrSurveyRequired": true,
-    "preferFullyDigitalDuoExecutable": true,
-    "preferredTaskTypes": ["annotation", "data-labeling", "classification", "comparison", "research", "data-entry", "document-processing", "translation", "qa", "technical-testing", "programming", "web", "digital-processing", "cataloging"],
-    "requireFullRequirementCheckBeforePrepare": true
+    "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "data-extraction", "excel-automation", "qa", "programming"],
+    "prepareBestSafeOpportunity": true
   },
-  "createdAt": "2026-08-15T20:44:30Z",
-  "note": "DUO-first work cycle. Do not reject jobs with no country requirement. Reject only explicit incompatible geography or human-only requirements. Prioritize tasks DUO can execute end-to-end on the PC/web."
+  "createdAt": "2026-08-15T21:05:00Z",
+  "note": "Freelance-first DUO cycle: prioritize automation jobs that DUO can execute end-to-end."
 }
