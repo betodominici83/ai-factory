@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "seq": 2,
+  "seq": 3,
   "command": "work_cycle",
   "args": {
-    "priorityPlatforms": ["mindrift", "utest", "oneforma", "outlier", "crowdgen", "workana"],
+    "priorityPlatforms": ["mindrift"],
     "country": "Argentina",
     "requireVerifiedEligibility": true,
     "skipPlatformsWithoutArgentinaEligibility": true
   },
-  "createdAt": "2026-08-15T20:36:00Z",
-  "note": "Verified Argentina-first work cycle. Open/scan only platforms or opportunities confirmed for Argentina; prepare best safe opportunity. No auto-submit where human/identity/policy approval is required."
+  "createdAt": "2026-08-15T20:41:00Z",
+  "note": "Immediate verified Argentina work cycle: prioritize Mindrift Latin America projects first. Prepare the best safe opportunity; stop only for login/KYC/2FA or human-only task requirements."
 }
