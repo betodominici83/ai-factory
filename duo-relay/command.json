@@ -1,14 +1,16 @@
 {
   "version": 1,
-  "seq": 5,
+  "seq": 6,
   "command": "work_cycle",
   "args": {
     "priorityPlatforms": ["workana", "upwork", "freelancer"],
     "country": "Argentina",
     "acceptIfNoCountryRequirement": true,
-    "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "data-extraction", "excel-automation", "qa", "programming"],
-    "prepareBestSafeOpportunity": true
+    "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "node", "data-extraction", "excel-automation", "csv", "document-processing", "qa", "programming"],
+    "prepareBestSafeOpportunity": true,
+    "repairLocksBeforeScan": true,
+    "openMarketsIfNeeded": true
   },
-  "createdAt": "2026-08-15T21:05:00Z",
-  "note": "Freelance-first DUO cycle: prioritize automation jobs that DUO can execute end-to-end."
+  "createdAt": "2026-08-15T22:04:00Z",
+  "note": "V20 restart work cycle: open freelance markets if needed, repair stale locks, scan, and prepare the best DUO-executable opportunity."
 }
