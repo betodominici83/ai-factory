@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "bootstrap_work",
+  "args": {
+    "approvedSameEdgeRestart": true,
+    "startAutopilot": true,
+    "openMarketsIfNeeded": true,
+    "scanImmediately": true,
+    "prepareBestSafeOpportunity": true,
+    "country": "Argentina",
+    "acceptIfNoCountryRequirement": true
+  },
+  "createdAt": "2026-08-15T23:36:00Z",
+  "note": "V24 hotfix bootstrap after V23 real timeout: non-blocking Edge control, fast status, health-gated install, then start DUO work cycle."
+}
