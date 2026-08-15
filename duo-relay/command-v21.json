@@ -1,15 +1,10 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "work_cycle",
+  "seq": 2,
+  "command": "activate_same_edge",
   "args": {
-    "lanes": ["pro", "micro"],
-    "country": "Argentina",
-    "acceptIfNoCountryRequirement": true,
-    "prepareBestSafeOpportunity": true,
-    "repairLocksBeforeScan": true,
-    "openMarketsIfNeeded": true
+    "approved": true
   },
-  "createdAt": "2026-08-15T22:20:00Z",
-  "note": "V21 first work cycle after SAME PERSONAL EDGE PROFILE activation. Open active markets, scan, rank and prepare the best safe DUO-executable opportunity."
+  "createdAt": "2026-08-15T22:55:00Z",
+  "note": "User explicitly authorized DUO to activate control over the same real Microsoft Edge profile. Restart Edge and enable localhost CDP control on port 9222."
 }
