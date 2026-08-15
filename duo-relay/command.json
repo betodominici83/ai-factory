@@ -1,16 +1,33 @@
 {
   "version": 1,
-  "seq": 6,
+  "seq": 7,
   "command": "work_cycle",
   "args": {
-    "priorityPlatforms": ["workana", "upwork", "freelancer"],
+    "lanes": {
+      "pro": {
+        "priorityPlatforms": ["workana", "upwork", "freelancer"],
+        "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "node", "data-extraction", "excel-automation", "csv", "document-processing", "qa", "programming"]
+      },
+      "micro": {
+        "platforms": ["clickworker", "oneforma", "crowdgen", "microworkers", "sproutgigs", "mindrift", "utest"],
+        "preferredTaskTypes": ["annotation", "data-labeling", "classification", "comparison", "research", "data-entry", "document-processing", "translation", "qa", "technical-testing", "cataloging"],
+        "onlyIfAutomationAllowed": true,
+        "humanAssistIfAutomationRestricted": true
+      }
+    },
     "country": "Argentina",
     "acceptIfNoCountryRequirement": true,
-    "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "node", "data-extraction", "excel-automation", "csv", "document-processing", "qa", "programming"],
+    "rejectIfExplicitOtherCountryResidenceRequired": true,
+    "rejectIfInterviewOrCallRequired": true,
+    "rejectIfVideoOrSelfieRequired": true,
+    "rejectIfPhysicalPhotosRequired": true,
+    "rejectIfCameraOrMicrophoneParticipationRequired": true,
+    "rejectIfInPersonOrPhysicalTask": true,
     "prepareBestSafeOpportunity": true,
     "repairLocksBeforeScan": true,
-    "openMarketsIfNeeded": true
+    "openMarketsIfNeeded": true,
+    "rankAcrossLanesByExpectedNetValue": true
   },
-  "createdAt": "2026-08-15T22:04:00Z",
-  "note": "V20 restart work cycle: open freelance markets if needed, repair stale locks, scan, and prepare the best DUO-executable opportunity."
+  "createdAt": "2026-08-15T22:10:00Z",
+  "note": "V20 dual-lane cycle: PRO + MICRO. Keep microjobs in radar; execute autonomously only where platform/task rules allow automation, otherwise mark human-assisted. Rank everything by expected net value."
 }
