@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "seq": 0,
-  "command": "idle",
+  "seq": 1,
+  "command": "work_cycle",
   "args": {},
-  "createdAt": "2026-08-15T10:02:00Z",
-  "note": "Public command channel only. Never store credentials, cookies, account data, or private results here."
+  "createdAt": "2026-08-15T10:06:00Z",
+  "note": "First remote DUO work cycle: open all platforms, scan, and prepare the best safe opportunity. No auto-submit."
 }
