@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "bootstrap_work",
+  "args": {
+    "approvedSameEdgeRestart": true,
+    "startAutopilot": true,
+    "openMarketsIfNeeded": true,
+    "scanImmediately": true,
+    "prepareBestSafeOpportunity": true,
+    "country": "Argentina",
+    "acceptIfNoCountryRequirement": true
+  },
+  "createdAt": "2026-08-15T23:55:00Z",
+  "note": "V26 verified-startup bootstrap. Only act after the local V26 installer passes its on-PC acceptance tests."
+}
