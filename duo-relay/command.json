@@ -1,8 +1,13 @@
 {
   "version": 1,
-  "seq": 1,
+  "seq": 2,
   "command": "work_cycle",
-  "args": {},
-  "createdAt": "2026-08-15T10:06:00Z",
-  "note": "First remote DUO work cycle: open all platforms, scan, and prepare the best safe opportunity. No auto-submit."
+  "args": {
+    "priorityPlatforms": ["mindrift", "utest", "oneforma", "outlier", "crowdgen", "workana"],
+    "country": "Argentina",
+    "requireVerifiedEligibility": true,
+    "skipPlatformsWithoutArgentinaEligibility": true
+  },
+  "createdAt": "2026-08-15T20:36:00Z",
+  "note": "Verified Argentina-first work cycle. Open/scan only platforms or opportunities confirmed for Argentina; prepare best safe opportunity. No auto-submit where human/identity/policy approval is required."
 }
