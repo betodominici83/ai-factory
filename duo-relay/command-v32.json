@@ -1,22 +1,10 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "work_cycle",
+  "seq": 2,
+  "command": "pause_browser_automation",
   "args": {
-    "mode": "same_running_edge_singleton_execution",
-    "publicRadar": true,
-    "prepareLocalWork": true,
-    "runQA": true,
-    "recordEvidence": true,
-    "useRunningEdgeSession": true,
-    "reuseExistingPlatformTabs": true,
-    "allowJobScopedTabsInSameEdge": true,
-    "neverLaunchEdgeProcess": true,
-    "neverRestartEdge": true,
-    "neverCreateEdgeWindow": true,
-    "maxManagedTabs": 3,
-    "country": "Argentina"
+    "reason": "V33_SUPERSEDES_V32_INSTALLER_FAILURE"
   },
-  "createdAt": "2026-08-16T03:31:00Z",
-  "note": "V32 active. Use the user's already-running Edge session. Reuse platform tabs or create job-scoped tabs inside that same Edge only. Never spawn/restart Edge and never create a new Edge window. Keep Job Ledger, QA, evidence, and confirmed earnings truth rules."
+  "createdAt": "2026-08-16T03:40:00Z",
+  "note": "V32 superseded after launcher MODULE_NOT_FOUND when run directly from ZIP. Pause V32 generation; do not open/restart/create browser windows or tabs."
 }
