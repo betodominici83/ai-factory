@@ -1,16 +1,8 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "bootstrap_work",
-  "args": {
-    "approvedSameEdgeRestart": true,
-    "startAutopilot": true,
-    "openMarketsIfNeeded": true,
-    "scanImmediately": true,
-    "prepareBestSafeOpportunity": true,
-    "country": "Argentina",
-    "acceptIfNoCountryRequirement": true
-  },
-  "createdAt": "2026-08-15T23:45:00Z",
-  "note": "V25 direct Node supervisor bootstrap. Start same-profile Edge control and work cycle after health is confirmed."
+  "seq": 99,
+  "command": "idle",
+  "args": {"reason": "EMERGENCY_NO_AUTO_EDGE"},
+  "createdAt": "2026-08-16T00:48:20Z",
+  "note": "Emergency neutralization: no Edge bootstrap/open-markets."
 }
