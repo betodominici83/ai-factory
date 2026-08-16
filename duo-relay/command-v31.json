@@ -1,20 +1,10 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "work_cycle",
+  "seq": 2,
+  "command": "pause_workers",
   "args": {
-    "mode": "job_ledger_execution_pipeline",
-    "publicRadar": true,
-    "prepareLocalWork": true,
-    "runQA": true,
-    "recordEvidence": true,
-    "useExistingBrowserTabsOnly": true,
-    "neverOpenEdge": true,
-    "neverRestartEdge": true,
-    "neverCreateEdgeWindow": true,
-    "neverCreateEdgeTab": true,
-    "country": "Argentina"
+    "reason": "MIGRATE_TO_V32_SAME_EDGE_SINGLETON"
   },
-  "createdAt": "2026-08-16T02:31:00Z",
-  "note": "V31: run radar, local prework, QA, evidence, and job ledger. Browser actions may only use already-controllable existing tabs. Never launch/restart/create Edge windows or tabs. Platform commitments and payments are never inferred without platform evidence."
+  "createdAt": "2026-08-16T03:30:00Z",
+  "note": "V31 paused. It disabled useful Edge access. V32 replaces it with same-running-Edge singleton control: no Edge process launch/restart/new window, job-scoped tabs allowed in the existing Edge."
 }
