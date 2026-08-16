@@ -1,39 +1,10 @@
 {
   "version": 1,
-  "seq": 8,
-  "command": "work_cycle",
+  "seq": 9,
+  "command": "idle",
   "args": {
-    "mode": "execute_not_just_scan",
-    "lanes": {
-      "pro": {
-        "priorityPlatforms": ["workana", "upwork", "freelancer"],
-        "preferredTaskTypes": ["web-scraping", "browser-automation", "playwright", "selenium", "python", "node", "data-extraction", "excel-automation", "csv", "document-processing", "qa", "programming"],
-        "prepareApplications": true,
-        "doNotSpendCreditsWithoutHumanGate": true,
-        "doNotAcceptPaidContractWithoutHumanGate": true
-      },
-      "micro": {
-        "platforms": ["clickworker", "oneforma", "crowdgen", "microworkers", "sproutgigs", "mindrift", "utest"],
-        "preferredTaskTypes": ["annotation", "data-labeling", "classification", "comparison", "research", "data-entry", "document-processing", "translation", "qa", "technical-testing", "cataloging"],
-        "executeAndSubmitAutomaticallyIfTaskRulesExplicitlyAllowAutomation": true,
-        "skipIfAutomationProhibitedOrHumanOpinionRequired": true,
-        "humanAssistIfKyc2faCaptchaOrIdentityCheck": true,
-        "continueWhileCompatibleTasksExist": true
-      }
-    },
-    "country": "Argentina",
-    "acceptIfNoCountryRequirement": true,
-    "rejectIfExplicitOtherCountryResidenceRequired": true,
-    "rejectIfInterviewOrCallRequired": true,
-    "rejectIfVideoOrSelfieRequired": true,
-    "rejectIfPhysicalPhotosRequired": true,
-    "rejectIfCameraOrMicrophoneParticipationRequired": true,
-    "rejectIfInPersonOrPhysicalTask": true,
-    "repairLocksBeforeScan": true,
-    "openMarketsIfNeeded": true,
-    "rankAcrossLanesByExpectedNetValue": true,
-    "recordEvidenceAndEarnings": true
+    "reason": "EMERGENCY_BROWSER_STOP"
   },
-  "createdAt": "2026-08-15T22:46:00Z",
-  "note": "Execution-first order. MICRO: actually execute and submit compatible tasks when automation is explicitly allowed. PRO: prepare applications and deliverables, with Human Gate before spending credits or accepting a paid contract. Do not merely scan."
+  "createdAt": "2026-08-16T00:55:00Z",
+  "note": "Emergency neutralization: legacy relay must not open markets, activate Edge, or start browser work."
 }
