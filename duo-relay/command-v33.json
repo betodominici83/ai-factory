@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "mode": "same_running_edge_singleton_execution",
+    "publicRadar": true,
+    "prepareLocalWork": true,
+    "runQA": true,
+    "recordEvidence": true,
+    "useRunningEdgeSession": true,
+    "reuseExistingPlatformTabs": true,
+    "allowJobScopedTabsInSameEdge": true,
+    "neverLaunchEdgeProcess": true,
+    "neverRestartEdge": true,
+    "neverCreateEdgeWindow": true,
+    "maxManagedTabs": 3,
+    "country": "Argentina"
+  },
+  "createdAt": "2026-08-16T03:40:00Z",
+  "note": "V33 active. Same running Edge singleton: reuse current user session, allow job-scoped tabs only inside that Edge, never spawn/restart Edge or create a new Edge window. V33 uses a self-contained installer so direct execution from ZIP cannot lose installer/install.mjs."
+}
