@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "mode": "background_workers_no_auto_edge",
+    "publicRadar": true,
+    "useExistingBrowserTabsOnly": true,
+    "neverOpenEdge": true,
+    "neverRestartEdge": true,
+    "neverCreateEdgeWindow": true,
+    "neverCreateEdgeTab": true,
+    "analyzeTop": true,
+    "country": "Argentina"
+  },
+  "createdAt": "2026-08-16T01:00:00Z",
+  "note": "V29: keep workers active using background public radar and local analysis. Browser bridge may only adopt existing controllable Edge tabs. Never launch, restart, or create Edge windows/tabs."
+}
