@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "mode": "native_panel_background_workers_no_auto_edge",
+    "publicRadar": true,
+    "useExistingBrowserTabsOnly": true,
+    "neverOpenEdge": true,
+    "neverRestartEdge": true,
+    "neverCreateEdgeWindow": true,
+    "neverCreateEdgeTab": true,
+    "country": "Argentina"
+  },
+  "createdAt": "2026-08-16T02:07:00Z",
+  "note": "V30 active generation. Keep background workers running. Work Center is native console, not Edge. Browser bridge can only adopt existing controllable tabs and must never launch/restart/create Edge windows or tabs."
+}
