@@ -1,16 +1,10 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "bootstrap_work",
+  "seq": 99,
+  "command": "idle",
   "args": {
-    "approvedSameEdgeRestart": true,
-    "startAutopilot": true,
-    "openMarketsIfNeeded": true,
-    "scanImmediately": true,
-    "prepareBestSafeOpportunity": true,
-    "country": "Argentina",
-    "acceptIfNoCountryRequirement": true
+    "reason": "EMERGENCY_NO_AUTO_EDGE"
   },
-  "createdAt": "2026-08-15T23:15:00Z",
-  "note": "V23 self-healing bootstrap. User explicitly approved same-profile Edge restart and wants DUO to start work automatically."
+  "createdAt": "2026-08-16T00:47:30Z",
+  "note": "Emergency neutralization: do not bootstrap Edge or open markets. Local cleanup will stop legacy WORKERS processes."
 }
