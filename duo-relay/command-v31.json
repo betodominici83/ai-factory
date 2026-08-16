@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "mode": "job_ledger_execution_pipeline",
+    "publicRadar": true,
+    "prepareLocalWork": true,
+    "runQA": true,
+    "recordEvidence": true,
+    "useExistingBrowserTabsOnly": true,
+    "neverOpenEdge": true,
+    "neverRestartEdge": true,
+    "neverCreateEdgeWindow": true,
+    "neverCreateEdgeTab": true,
+    "country": "Argentina"
+  },
+  "createdAt": "2026-08-16T02:31:00Z",
+  "note": "V31: run radar, local prework, QA, evidence, and job ledger. Browser actions may only use already-controllable existing tabs. Never launch/restart/create Edge windows or tabs. Platform commitments and payments are never inferred without platform evidence."
+}
