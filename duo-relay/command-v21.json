@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "seq": 2,
-  "command": "activate_same_edge",
+  "seq": 3,
+  "command": "idle",
   "args": {
-    "approved": true
+    "reason": "EMERGENCY_BROWSER_STOP"
   },
-  "createdAt": "2026-08-15T22:55:00Z",
-  "note": "User explicitly authorized DUO to activate control over the same real Microsoft Edge profile. Restart Edge and enable localhost CDP control on port 9222."
+  "createdAt": "2026-08-16T00:57:00Z",
+  "note": "Emergency neutralization: V21 must not activate or restart Edge."
 }
