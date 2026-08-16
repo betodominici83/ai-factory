@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "bootstrap_work",
+  "args": {
+    "approvedSameEdgeRestart": true,
+    "startAutopilot": true,
+    "openMarketsIfNeeded": true,
+    "scanImmediately": true,
+    "prepareBestSafeOpportunity": true,
+    "country": "Argentina",
+    "acceptIfNoCountryRequirement": true
+  },
+  "createdAt": "2026-08-16T00:12:00Z",
+  "note": "V27 hardened acceptance bootstrap. Local installer must pass isolated runtime/self-heal/status/UI tests, restart in normal mode, and confirm SAME real Edge CDP before final success."
+}
