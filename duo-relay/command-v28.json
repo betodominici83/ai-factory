@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "idle",
+  "args": {
+    "reason": "V28_NO_AUTO_EDGE"
+  },
+  "createdAt": "2026-08-16T00:22:00Z",
+  "note": "V28 safety default: no Edge bootstrap, no browser activation, no open-all. V28 only scans/adopts browser tabs that already exist and are already controllable."
+}
