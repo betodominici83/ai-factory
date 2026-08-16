@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "idle",
+  "seq": 2,
+  "command": "pause_browser_automation",
   "args": {
-    "reason": "V28_NO_AUTO_EDGE"
+    "reason": "EMERGENCY_STOP_EDGE_OPENINGS"
   },
-  "createdAt": "2026-08-16T00:22:00Z",
-  "note": "V28 safety default: no Edge bootstrap, no browser activation, no open-all. V28 only scans/adopts browser tabs that already exist and are already controllable."
+  "createdAt": "2026-08-16T00:43:00Z",
+  "note": "Emergency stop requested by user. Disable V28 autopilot/browser automation immediately. Do not open, restart, focus, minimize, or create browser tabs/windows until explicitly resumed."
 }
