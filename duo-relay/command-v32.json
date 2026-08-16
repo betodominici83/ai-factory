@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "mode": "same_running_edge_singleton_execution",
+    "publicRadar": true,
+    "prepareLocalWork": true,
+    "runQA": true,
+    "recordEvidence": true,
+    "useRunningEdgeSession": true,
+    "reuseExistingPlatformTabs": true,
+    "allowJobScopedTabsInSameEdge": true,
+    "neverLaunchEdgeProcess": true,
+    "neverRestartEdge": true,
+    "neverCreateEdgeWindow": true,
+    "maxManagedTabs": 3,
+    "country": "Argentina"
+  },
+  "createdAt": "2026-08-16T03:31:00Z",
+  "note": "V32 active. Use the user's already-running Edge session. Reuse platform tabs or create job-scoped tabs inside that same Edge only. Never spawn/restart Edge and never create a new Edge window. Keep Job Ledger, QA, evidence, and confirmed earnings truth rules."
+}
