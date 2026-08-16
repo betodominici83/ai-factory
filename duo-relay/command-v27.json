@@ -1,16 +1,10 @@
 {
   "version": 1,
-  "seq": 1,
-  "command": "bootstrap_work",
+  "seq": 2,
+  "command": "idle",
   "args": {
-    "approvedSameEdgeRestart": true,
-    "startAutopilot": true,
-    "openMarketsIfNeeded": true,
-    "scanImmediately": true,
-    "prepareBestSafeOpportunity": true,
-    "country": "Argentina",
-    "acceptIfNoCountryRequirement": true
+    "reason": "EMERGENCY_STOP_AUTO_EDGE_OPEN"
   },
-  "createdAt": "2026-08-16T00:12:00Z",
-  "note": "V27 hardened acceptance bootstrap. Local installer must pass isolated runtime/self-heal/status/UI tests, restart in normal mode, and confirm SAME real Edge CDP before final success."
+  "createdAt": "2026-08-16T00:18:00Z",
+  "note": "Emergency neutral relay command. Do not bootstrap, activate Edge, open markets, or restart browser from relay. V28 will permanently disable automatic Edge opening/relaunching."
 }
