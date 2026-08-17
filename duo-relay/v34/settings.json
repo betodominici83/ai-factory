@@ -1,0 +1,17 @@
+{
+  "host": "127.0.0.1",
+  "preferredPort": 8788,
+  "portRange": [8788,8799],
+  "mode": "ASSISTED_EXECUTION",
+  "release": {"version":"34.0.0","channel":"SAME_EDGE_SELF_REPAIR_ACTIVITY_STREAM","cma":"BUILD_TEST_AUDIT_REPAIR_RETEST_REAUDIT"},
+  "core": {"host":"127.0.0.1","port":8787,"expectedProcess":"C:\\agente-navegador\\dominici-platform\\app\\robot.js","probePaths":["/api/status","/health","/status","/"],"workingDir":"C:\\agente-navegador\\dominici-platform"},
+  "resource": {"minFreeRamGB":1.0,"maxWorkers":8,"cpuSoftLimitPercent":90},
+  "scanner": {"maxCandidates":60,"maxTextPerCandidate":1800,"autoScanEnabled":true,"autoScanEverySec":300,"maxStoredOpportunities":2000},
+  "publicRadar": {"enabled":true,"cycleEverySec":300,"requestTimeoutMs":8000,"maxBytes":900000,"userAgent":"Mozilla/5.0 DominiciDUO/32"},
+  "browserBridge": {"enabled":true,"passiveOnly":false,"remoteDebugPort":9222,"adoptExistingTabsOnCycle":true,"useRunningEdgeSession":true,"neverLaunchEdgeProcess":false,"neverRestartEdge":false,"neverCreateWindow":true,"allowJobScopedTabsInSameEdge":true,"maxManagedTabs":3,"autoTabCooldownSec":21600,"autoRepairSameEdge":true,"controlledRestartAllowed":true,"controlledRestartMaxPerBoot":1,"repairCooldownSec":21600,"sessionBackupBeforeRestart":true,"legacyLauncherNeutralize":true,"allowControlledEdgeLaunchForRepair":true},
+  "localAI": {"enabled":true,"endpoint":"http://127.0.0.1:11434","models":["qwen2.5:3b","qwen2.5-coder:3b","llama3.2:3b"],"timeoutMs":8000},
+  "security": {"allowRemote":false,"storePasswords":false,"autoAccept":false,"autoSubmit":false,"requireApprovalBeforeFinancialCommitment":true,"blockOpinionSurveys":true,"blockArtificialEngagement":true},
+  "autopilot": {"enabled":true,"cycleEverySec":120,"publicRadar":true,"browserScan":true,"analyzeTop":true,"maxAnalyzePerCycle":3,"maxPreparePerCycle":2},
+  "relay": {"enabled":true,"pollEverySec":10,"commandUrl":"https://raw.githubusercontent.com/betodominici83/ai-factory/duo-relay/duo-relay/command-v34.json","allowedCommands":["idle","work_cycle","scan_all","prepare_best","pause_workers","resume_workers","repair"],"maxCommandAgeSec":86400},
+  "health": {"statusCacheMs":1000,"panelFetchTimeoutMs":5000}
+}
