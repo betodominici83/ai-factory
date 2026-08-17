@@ -22,7 +22,10 @@ const MANIFEST={
  'src/browserManager.mjs':'23148040d3334a3914965115d7b4dfcf5cc3f39e3c0dc8ad2d42d5718a55b171',
  'src/server.mjs':'87b203a4251a39fc7b544d8b9475dd333fec70586714131630779c9aba5e5b56',
  'src/panel-console.mjs':'31f7c6e66644c852df52a07726bb2cd01b274a8fda18557a9e5f308375a22273',
- 'config/settings.json':'c0291d191c487d2bd239a72ce7eb35b9faa1a97af9749b7cf56298b0533854d5'
+ 'config/settings.json':'c0291d191c487d2bd239a72ce7eb35b9faa1a97af9749b7cf56298b0533854d5',
+ 'test/run.mjs':'759fa6dfdd351910b8e67b4b6fd6df69061eceebc43b285b95302634baf82935',
+ 'tools/ui-check.mjs':'df68bccb4044e011e9512a7a0a533b26e50e8f839da99dbc17844eb9aeb92111',
+ 'tools/audit.mjs':'21f513f1b1d12a65c431d302120d12e25da35db45f5ae27ed3e259112e218856'
 };
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const log=s=>console.log(s);
