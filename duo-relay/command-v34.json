@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "seq": 1,
+  "command": "work_cycle",
+  "args": {
+    "mode": "same_edge_self_repair_activity_stream",
+    "publicRadar": true,
+    "prepareLocalWork": true,
+    "runQA": true,
+    "recordEvidence": true,
+    "useRunningEdgeSession": true,
+    "reuseExistingPlatformTabs": true,
+    "allowJobScopedTabsInSameEdge": true,
+    "autoRepairSameEdge": true,
+    "sessionBackupBeforeRepair": true,
+    "controlledRestartMaxPerBoot": 1,
+    "neverCreateEdgeWindowLoop": true,
+    "maxManagedTabs": 3,
+    "country": "Argentina"
+  },
+  "createdAt": "2026-08-17T00:29:00Z",
+  "note": "V34 active. ONE PROMPT FACTORY: keep workers cycling, repair the same personal Edge only when needed, back up Edge session first, neutralize legacy DUO launchers, permit at most one controlled Edge relaunch per Windows boot, never create a periodic Edge window/restart loop, keep Job Ledger + QA + evidence + confirmed-earnings truth rules."
+}
